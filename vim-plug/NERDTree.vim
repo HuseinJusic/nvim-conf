@@ -15,3 +15,17 @@ let NERDTreeAutoDeleteBuffer = 1
 " UI
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
+
+" NERDTree-Git
+let g:NERDTreeGitStatusIndicatorMapCustom = {
+                \ 'Modified'  :'c',
+                \ 'Staged'    :'s',
+                \ 'Untracked' :'u',
+                \ 'Renamed'   :'r',
+                \ 'Unmerged'  :'═',
+                \ 'Deleted'   :'xx',
+                \ 'Dirty'     :'x',
+                \ 'Ignored'   :'i',
+                \ 'Clean'     :'clean',
+                \ 'Unknown'   :'?',
+                \ }
